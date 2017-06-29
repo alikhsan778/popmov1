@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.udacity_project.asus.popmovs.MainActivity">
+<include layout="@layout/view_toolbar"/>
+    <include layout="@layout/view_load"/>
+<GridView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/movie_item_list"
+    android:columnWidth="165dp"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="none"
+    android:listSelector="@null"
+    android:numColumns="auto_fit">
+
+</GridView>
+
+
+</LinearLayout>
